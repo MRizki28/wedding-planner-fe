@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url('/src/assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
