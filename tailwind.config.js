@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppinsSemiBold: 'poppins-semibold',
+        poppinsRegular: 'poppins-regular',
       }
     },
   },
