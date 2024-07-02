@@ -6,3 +6,24 @@
     font-family: poppins-semibold;
     src: url('/src/assets/fonts/Poppins/Poppins-SemiBold.ttf');
 }
+
+@font-face {
+    font-family: poppins-regular;
+    src: url('/src/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-image-blur {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* Sesuaikan tinggi area blur */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+    pointer-events: none; /* Supaya elemen ini tidak mengganggu interaksi pengguna */
+}
