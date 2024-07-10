@@ -31,6 +31,7 @@ export function ModalVanue() {
         setData(resultData)
 
     }, [])
+    
 
     return (
         <div className="absolute top-[1035px] left-0 right-0 flex items-center justify-center z-50 ">
